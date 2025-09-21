@@ -7,8 +7,6 @@ Usage: Double-click the .bat which launches this script. The script:
  - Prompts whether to create a New v7 file or Overwrite an existing v7 file.
    * New: writes a New file next to the selected v6 with "(Converted)" appended.
    * Overwrite: prompts you to choose an existing v7 file, backs it up, then replaces its first :root block with the generated v7 variables.
- - When overwriting, additionally writes a copy named "<v6basename> - v6 to v7 Overwrite.theme.css" next to the v7 file.
-Notes:
  - The generated v7 :root block is produced from the selected v6's CSS variables.
  - The script preserves the remaining contents of any overwritten v7 file (it replaces only the first :root { ... } block).
 #>
